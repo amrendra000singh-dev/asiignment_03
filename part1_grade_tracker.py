@@ -23,12 +23,12 @@ for student in raw_students:
     }
     cleaned_students.append(cleaned)
 
-    print('================================')
+
     print(f"Student : {name}")
     print(f"Roll No : {roll}")
     print(f"Marks   : {marks}")
     print(validity)
-    print('================================')
+
 
 student_103 = next((s for s in cleaned_students if s['roll'] == 103), None)
 if student_103:
@@ -105,7 +105,7 @@ class_data = [
 ]
 
 print("\nName              | Average | Status")
-print("----------------------------------------")
+
 
 results = []
 for name, scores in class_data:
